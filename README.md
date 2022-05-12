@@ -1,6 +1,6 @@
 # Evil_Twin_Attack
 
-<img src="https://user-images.githubusercontent.com/57721728/168044899-34bc649b-ee79-408b-bdf3-50be1d128521.png" width="500" height="380">
+<img src="https://user-images.githubusercontent.com/57721728/168044899-34bc649b-ee79-408b-bdf3-50be1d128521.png" width="600" height="380">
 
 ## The purpose of this project was:
 ### To build an evil twin attack in addition to a defense tool which can prevent and thwart the attack.
@@ -78,6 +78,55 @@ Obtaining the user's information that is the purpose of the attack.
 
 ### In this part of the project we tried to think of a defense tool that would allow both customer protection and counterattack.
 
-The defense tool is carried out in parallel with the attack:
+The defense tool from this is a third party system, which is an attack, and acts in order to protect and thwart the attack.
+
+## The defense:
+When an Ap - a new access point is detected, then it is checked by its name, in case it is not in the list of the Ap that are stored on the network, save the information about it and add it to the list.
+
+If it is already on the list,
+Then find the Ap that is identical to it in the list.
+And check credibility by their mac address, if they are identical then it is secure. If they are different then it is a potential access point to the evil twin attack.
+Therefore, since the person in charge of the defense knows who the Ap who was attacked is (because they impersonated her)
+Then he connects to it and checks if a large amount of Deathintication facts were sent at a certain time,
+
+If sent then it detects an attack, so it performs an attack thwart:
+In order to thwart, he needs to know who the victim is and who the attacker is.
+And since Deauthintication facts were sent then there is the address of the source and the address of the destination (valid and valid)
+Therefore the head of defense sends such facts of Deauthintication - impersonates the attacker and sends them to the attacker and disconnects the attacker from the fake network, and by sending a large amount of such facts the attacker will be flooded with messages in order to overthrow the network.
+We thus thwarted the attack and prevented the attacker from taking personal information of the attacker.
+
+ ### The defense tool is carried out in parallel with the attack:
+
+# Stages of attack:
+## step one:
+Choose a network interface:
+
+![image](https://user-images.githubusercontent.com/57721728/168117496-84104606-8d80-4f7c-bf37-9a63b534b742.png)
+
+## step two:
+ when a new access point is detected then it is checked if it has been previously identified with the same name, then we are shown the name of the address that the attacker (believed) and the fake address that the attacker established
+![image](https://user-images.githubusercontent.com/57721728/168107231-70035a2a-adcb-403b-bfa2-e8f971ae6d2f.png)
+
+## step three:
+Once the attacker's address and the attacker's address have been presented to the defense officer, 
+he must select and enter as input who he wants to defend.
+
+![image](https://user-images.githubusercontent.com/57721728/168117835-5850b16d-d913-4b30-9e07-7ea716e2976f.png)
+
+## step four:
+At this point it checks whether the selected Ap is under evil twin attack
+match by checking the sending of a large amount of Deauthintication facts at a certain time.
+
+![image](https://user-images.githubusercontent.com/57721728/168120940-8a1e90fe-e03d-4bd8-be45-7c4fc6da2de2.png)
+![image](https://user-images.githubusercontent.com/57721728/168121096-745c25df-581f-445f-8d69-4c62f3b94471.png)
 
 
+## step five: 
+Prevention of the attack:
+ The protection officer saves the victim's information contained in the disconnection packages, 
+ and sends through the attacker Deauthintication facts
+Attack and disconnect him thus thwarting the attack, and in addition when he sends the facts he sends full ones so that it will drop him the net.
+
+### The purpose for which Moses' defense was intended was completed
+
+<img src="https://user-images.githubusercontent.com/57721728/168120300-5736c7bf-c390-4896-a005-304cda629128.png" width="400" height="200">
