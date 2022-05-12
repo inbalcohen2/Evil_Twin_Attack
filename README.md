@@ -1,6 +1,6 @@
 # Evil_Twin_Attack
 
-<img src="https://linuxsecurityblog.files.wordpress.com/2018/10/evtwat.jpg" width="600" height="380">
+<img src="https://user-images.githubusercontent.com/57721728/168044899-34bc649b-ee79-408b-bdf3-50be1d128521.png" width="500" height="380">
 
 ## The purpose of this project was:
 ### To build an evil twin attack in addition to a defense tool which can prevent and thwart the attack.
@@ -27,7 +27,7 @@ The endpoint will try to connect automatically to the Point-Access that publishe
 it will try to connect The security mechanism that has been set up for this network.
 And from the moment the attacker is under the fake access point the attacker can sniff information and passwords of the attacker and use it.
 
-<img src="https://user-images.githubusercontent.com/57721728/167908927-99286c05-ff19-4726-9854-0139b912bd44.png" width="300" height="200">
+<img src="https://user-images.githubusercontent.com/57721728/167908927-99286c05-ff19-4726-9854-0139b912bd44.png" width="400" height="250">
 
 ### - Stages of execution of the "Evil twin attack":
  We will now detail the stages of the attack we carried out
@@ -74,7 +74,8 @@ where he will have to fill in details about himself to move on.
 Obtaining the user's information that is the purpose of the attack.
 
 # The defense tool:
-<img src="https://criminaldefenseattorneyinchicago.com/wp-content/uploads/2015/04/common-criminal-defenses-chicago-crime-case.jpg" width="300" height="200">
+<img src="https://criminaldefenseattorneyinchicago.com/wp-content/uploads/2015/04/common-criminal-defenses-chicago-crime-case.jpg" width="400" height="200">
+
 ### In this part of the project we tried to think of a defense tool that would allow both customer protection and counterattack.
 
 The defense tool is carried out in parallel with the attack:
