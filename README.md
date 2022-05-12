@@ -46,19 +46,27 @@ We implemented a system that allows an attacker to enter the input he chooses at
 
 ## Step one :
 Scanning the network cards in the area and entering the user on which network he wants to carry out the attack
+![image](https://user-images.githubusercontent.com/57721728/168158706-f183f262-e540-46eb-8d38-5464fbda45af.png)
+
 
 ## second two :
 Scan access points in the area and view them,
 The attacker then chooses which one he chooses to attack
+![image](https://user-images.githubusercontent.com/57721728/168158749-94b81a6d-d641-4755-ad75-1e664976decf.png)
+
 
 ## Step three : 
 Displays all connected customers to the same access point he selected in the previous step.
 And choosing a client (victim) he wants to attack
+![image](https://user-images.githubusercontent.com/57721728/168158813-2489128b-e5ee-46a7-a566-f815ee554fe3.png)
+
 
 ## Step four
 The attacker impersonates the original Ap and sends a large amount of Deuthintication facts to disconnect the client from that original Ap to the client (which the attacker wants to attack)
 And disconnects it from this approach.
 Disable the good twin using SCAPY.
+![image](https://user-images.githubusercontent.com/57721728/168158872-5d4334ed-79ec-4985-9170-cc1e906d42e2.png)
+
 
 ## Step Five :
 The attacker establishes a fake access point with the same name as the original access point 
@@ -69,9 +77,12 @@ Uploading the malicious network,
  Activating Portal Captive-
 Building a web page, which when the customer tries to enter a particular site he will go straight to the fake site,
 where he will have to fill in details about himself to move on.
+<img src="https://user-images.githubusercontent.com/57721728/168159121-e6177b07-834e-4f1a-a363-ffa02201920d.png" width="600" height="600">
 
 ## Step Seven:
 Obtaining the user's information that is the purpose of the attack.
+![image](https://user-images.githubusercontent.com/57721728/168159498-2c0c456e-6aa8-4bdf-a1a2-050f2e3b7935.png)
+
 
 # The defense tool:
 <img src="https://criminaldefenseattorneyinchicago.com/wp-content/uploads/2015/04/common-criminal-defenses-chicago-crime-case.jpg" width="400" height="200">
